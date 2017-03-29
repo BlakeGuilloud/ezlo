@@ -1,0 +1,22 @@
+{
+  "name": "ezlo",
+  "version": "1.0.0",
+  "description": "String Protoype for rendering hrefs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlakeGuilloud/ezlo.git"
+  },
+  "author": "Blake Guilloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlakeGuilloud/ezlo/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/BlakeGuilloud/ezlo#readme"
+}
