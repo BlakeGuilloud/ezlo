@@ -1,6 +1,8 @@
 # ezlo
 
-ezlo is a utility function for converting attached to the String prototype.
+ezlo is a utility function for converting text containing a url into a clickable link.
+
+It is attached to the String Prototype.
 
 [axios](https://www.npmjs.com/package/axios)
 
@@ -8,6 +10,8 @@ ezlo is a utility function for converting attached to the String prototype.
 
 #### Basic
 ```
+  require('ezlo');
+
   'Please visit our website at www.google.com'.ezlo()
     =>
       'Please visit our website at <a href="www.google.com">www.google.com</a>
@@ -15,6 +19,8 @@ ezlo is a utility function for converting attached to the String prototype.
 
 #### Applying options
 ```
+  require('ezlo');
+
   const opts = {
     redirectUrl: 'www.yahoo.com',
     alternateText: 'The website',
