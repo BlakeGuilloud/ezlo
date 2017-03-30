@@ -1,6 +1,6 @@
 {
   "name": "ezlo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String Protoype for rendering hrefs",
   "main": "index.js",
   "scripts": {
