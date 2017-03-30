@@ -4,8 +4,6 @@ ezlo is a utility function for converting text containing a url into a clickable
 
 It is attached to the String Prototype.
 
-[axios](https://www.npmjs.com/package/axios)
-
 ### Usage
 
 #### Basic
