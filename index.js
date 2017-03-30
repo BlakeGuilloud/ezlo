@@ -1,4 +1,4 @@
-const ezlo = function(opts) {
+const ezlo = function(opts = {}) {
   const {
     externalPattern,
     redirectUrl,
