@@ -10,9 +10,9 @@ It is attached to the String Prototype.
 ```
   require('ezlo');
 
-  'Please visit our website at www.google.com'.ezlo()
+  'Please visit our website at www.google.com to learn more.'.ezlo()
     =>
-      'Please visit our website at <a href="www.google.com">www.google.com</a>
+      'Please visit our website at <a href="www.google.com">www.google.com</a> to learn more.'
 ```
 
 #### Applying options
@@ -24,7 +24,7 @@ It is attached to the String Prototype.
     alternateText: 'The website',
   };
 
-  'Please visit our website at www.google.com'.ezlo(opts)
+  'Please visit our website at www.google.com to learn more.'.ezlo(opts)
      =>
-      'Please visit our website at <a href="www.yahoo.com">The website</a>'
+      'Please visit our website at <a href="www.yahoo.com">The website</a> to learn more.'
 ```
